@@ -7,7 +7,7 @@ const projectsData = [
         category: "Applications",
         title: "Triftel - Social Media Platform",
         subtitle: "Mobile App Development",
-        image: "/src/assets/images/project-logo.webp", // update with your actual image
+        image: "/assets/images/project-logo.webp", // update with your actual image
         role: "Lead Full Stack Developer",
         duration: "1 Year",
         overview:
@@ -20,7 +20,7 @@ const projectsData = [
         category: ["WebSites", "Applications"],
         title: "Diamond Times - Digital News Portal",
         subtitle: "Web & Mobile App Development",
-        image: "/src/assets/images/diamondtimes.png", // replace with your actual image path
+        image: "/assets/images/diamondtimes.png", // replace with your actual image path
         role: "Full Stack Web Developer",
         duration: "Ongoing",
         overview:
@@ -33,7 +33,7 @@ const projectsData = [
 
         title: "The United Frontline - Digital News Portal",
         subtitle: "Web & Mobile App Development",
-        image: "/src/assets/images/tuf.webp", // replace with your actual image path
+        image: "/assets/images/tuf.webp", // replace with your actual image path
         role: "Full Stack Web Developer",
         duration: "Ongoing",
         overview:
@@ -46,7 +46,7 @@ const projectsData = [
         title: "Child Safety App",
         subtitle: "Mobile App Development",
 
-        image: "/src/assets/images/child.webp", // replace with actual image
+        image: "/assets/images/child.webp", // replace with actual image
         role: "Lead Full Stack Developer",
         duration: "Ongoing",
         overview:
@@ -58,7 +58,7 @@ const projectsData = [
         title: "Essential - Client & Vendor Home Service App",
         subtitle: "Mobile App Development",
 
-        image: "/src/assets/images/child.webp", // replace with actual image
+        image: "/assets/images/child.webp", // replace with actual image
         role: "Lead Full Stack Developer",
         duration: "Ongoing",
         overview:
@@ -70,7 +70,7 @@ const projectsData = [
         category: "Applications",
         title: "CinInfo - Film Industry Recruitment App",
         subtitle: "Mobile App Development",
-        image: "/src/assets/images/splace_logo.png", // replace with your actual image
+        image: "/assets/images/splace_logo.png", // replace with your actual image
         role: "Lead Full Stack Developer",
         duration: "6 month",
         overview:
@@ -83,7 +83,7 @@ const projectsData = [
         category: "Applications",
         title: "Elevorce - Attendance & Visa Expiry Alert System",
         subtitle: "Mobile App Development",
-        image: "/src/assets/images/elevorce.png",
+        image: "/assets/images/elevorce.png",
         role: "Lead Full Stack Developer",
         duration: "Ongoing",
         overview:
@@ -95,7 +95,7 @@ const projectsData = [
         category: "Applications",
         title: "Wedding Management & Guest Experience App",
         subtitle: "Mobile App Development",
-        image: "/src/assets/images/wedding.png", // replace with your actual image
+        image: "/assets/images/wedding.png", // replace with your actual image
         role: "Lead Full Stack Developer",
         duration: "Ongoing",
         overview:
@@ -107,7 +107,7 @@ const projectsData = [
         category: "WebSites",
         title: "HypeHy Fashion E-Commerce Website",
         subtitle: "Website Development",
-        image: "/src/assets/images/hypehy.png",
+        image: "/assets/images/hypehy.png",
         role: "Full Stack Web Developer",
         duration: "Completed",
         overview:

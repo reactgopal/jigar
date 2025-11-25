@@ -9,7 +9,7 @@ export default function Testimonial() {
     const testimonials = [
         {
             id: 1,
-            image: "/src/assets/images/t1.jpg",
+            image: "/assets/images/t1.jpg",
             text: "Publishing news, managing categories, and uploading media is extremely easy now. The admin dashboard is powerful yet simple to use.",
 
             name: "Arjun Virani - Diamondtimes Web and Application",
@@ -17,28 +17,28 @@ export default function Testimonial() {
         },
         {
             id: 2,
-            image: "/src/assets/images/t2.jpg",
+            image: "/assets/images/t2.jpg",
             text: "CinInfo solved a big problem in our industry. Now we can find suitable artists and technicians within minutes. The search, filters, and portfolio viewing system work perfectly.",
             name: "Sanjay Jayani - Cininfo Application",
             role: "Lead Developer",
         },
         {
             id: 3,
-            image: "/src/assets/images/t1.jpg",
+            image: "/assets/images/t1.jpg",
             text: "The UI is simple, fast, and very user-friendly. Our staff adapted to the system immediately, and accuracy has been excellent..",
             name: "Paras Chopra - Elevorce Application",
             role: "CEO & Founder",
         },
         {
             id: 4,
-            image: "/src/assets/images/t1.jpg",
+            image: "/assets/images/t1.jpg",
             text: "Their design team understands trends deeply, and their ability to produce high-quality apparel on tight timelines is impressive.",
             name: "Dhaval Ahir - HypeHy Website",
             role: "CEO & Founder",
         },
         {
             id: 5,
-            image: "/src/assets/images/t1.jpg",
+            image: "/assets/images/t1.jpg",
             text: "Modern UI, smooth performance, instant photo delivery, and excellent support—ICONFISYS exceeded expectations.",
             name: "Aayushi Kakadia - Wedding Application",
             role: "CEO & Founder",
