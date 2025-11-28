@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -21,7 +23,6 @@ li {
   --bg-color-green: #00ff00;
   --primary-color: #000000;
 
-
   --text-color-white: #ffffff;
   --text-color-light-grey: #777777;
   --text-color-dark-grey: #1d1d26;
@@ -34,11 +35,12 @@ li {
   --fill-color-dark: #000000;
 
   --border-color-light: #ededee;
-  --border-color-medium: rgba(119, 119, 125, .2);
+  --border-color-medium: rgba(119, 119, 125, 0.2);
   --border-color-dark: #000000;
-  --button-border: rgba(119, 119, 125, .2);
+  --button-border: rgba(119, 119, 125, 0.2);
 
-  --font-family: 'Syne', sans-serif;
+  /* --font-family: 'Syne', sans-serif; */
+  --font-family: "Inter", sans-serif;
   --font-size-small: 0.875rem;
   --font-size-medium: 1rem;
   --font-size-large: 1.25rem;
@@ -55,7 +57,6 @@ body {
   font-weight: 400;
   background-color: var(--bg-color-light-grey);
   color: var(--text-color-dark-grey);
-
 }
 
 a {
@@ -65,7 +66,6 @@ a {
 
 ul {
   list-style: none;
-
 }
 
 button {
@@ -81,7 +81,6 @@ img {
 }
 
 /* Header Styling */
-
 
 /* Button Styles */
 /* button {
@@ -111,8 +110,8 @@ li {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
   width: 100%;
-  padding-right: calc(var(--bs-gutter-x) * .5);
-  padding-left: calc(var(--bs-gutter-x) * .5);
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
   margin-right: auto;
   margin-left: auto;
 }
@@ -158,7 +157,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--font-family);
+  font-family: "Montserrat", sans-serif;
+  /* font-family: var(--font-family); */
   font-weight: 700;
   line-height: 1.2;
 
@@ -190,7 +190,6 @@ h5 {
 h6 {
   font-size: 1rem;
 }
-
 
 .card {
   background-color: var(--bg-color-white);
@@ -237,7 +236,6 @@ h6 {
 
 /* ------------------------------------title text css start--------------------------------------------- */
 
-
 .section-title {
   margin-bottom: 80px;
 }
@@ -252,9 +250,7 @@ h6 {
   text-transform: uppercase;
 }
 
-
 /* ------------------------------------title text css end--------------------------------------------- */
-
 
 /* ------------------------------------header css start--------------------------------------------- */
 
@@ -275,13 +271,12 @@ h6 {
   background-color: var(--bg-color-white);
   transition: all 0.5s ease;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
-
 }
 
 .fixed-header .header-inner {
   padding: 1px 0;
-  transition: all .5s ease;
-  border-bottom: 1px solid rgba(119, 119, 125, .2);
+  transition: all 0.5s ease;
+  border-bottom: 1px solid rgba(119, 119, 125, 0.2);
 }
 
 .header-inner {
@@ -441,7 +436,6 @@ h6 {
   }
 }
 
-
 @media (max-width: 480px) {
   .header-inner h2 {
     font-size: 18px;
@@ -456,14 +450,13 @@ h6 {
 /* ------------------------------------header css end--------------------------------------------- */
 /* ------------------------------------hero css start--------------------------------------------- */
 .container-inner {
-  background: #E6EAEE;
+  background: #e6eaee;
   border-radius: 15px;
   padding: 50px 25px;
   border: 1px solid rgb(237, 237, 238);
 }
 
 .hero-content {
-
   padding: 100px 50px;
   position: relative;
   text-align: center;
@@ -609,7 +602,6 @@ h6 {
   border-radius: 12px;
   margin-bottom: 15px;
   object-fit: cover;
-
 }
 
 .about-image-part h2 {
@@ -750,7 +742,6 @@ h6 {
   .about-img {
     width: 80%;
     margin: auto;
-
   }
 
   .skills-list {
@@ -823,8 +814,6 @@ h6 {
   }
 }
 
-
-
 /* ------------------------------------about css end--------------------------------------------- */
 /* ------------------------------------service css start--------------------------------------------- */
 .services-area {
@@ -837,14 +826,12 @@ h6 {
   transform: translateY(40px);
   animation: fadeUp 0.8s ease-out forwards;
   text-align: left;
-  background: #E6EAEE;
+  background: #e6eaee;
   transition: 0.5s;
   padding: 60px 40px;
   border-radius: 10px;
   border: 1px solid var(--border-color-medium);
-
 }
-
 
 .service-item:nth-child(1) {
   animation-delay: 0.2s;
@@ -887,7 +874,6 @@ h6 {
 
 /* responsive css */
 @media (max-width: 768px) {
-
   .service-item {
     margin-bottom: 30px;
   }
@@ -897,14 +883,14 @@ h6 {
 /* ------------------------------------resume css start--------------------------------------------- */
 .experience-list {
   padding: 40px;
-  border: 1px solid rgba(0, 0, 0, .05);
+  border: 1px solid rgba(0, 0, 0, 0.05);
   border-radius: 10px;
 }
 
 .resume-area {
   padding-top: 100px;
   padding-bottom: 100px;
-  background: #E6EAEE;
+  background: #e6eaee;
 }
 
 .resume-item {
@@ -954,8 +940,7 @@ h6 {
 }
 
 .contact-content-part {
-  background: #E6EAEE;
-
+  background: #e6eaee;
 
   padding: 50px 30px 20px 40px;
   border-radius: 10px;
@@ -967,8 +952,8 @@ h6 {
   margin-bottom: 5px;
   text-transform: capitalize;
   font-weight: 500;
-  -webkit-transition: .3s;
-  transition: .3s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
   color: var(--subtitle-color);
 }
 
@@ -978,7 +963,7 @@ h6 {
 
 .contact-form-area {
   padding: 40px;
-  border: 1px solid rgba(0, 0, 0, .05);
+  border: 1px solid rgba(0, 0, 0, 0.05);
   border-radius: 10px;
 }
 
@@ -1000,7 +985,7 @@ h6 {
   line-height: 1.3;
   padding: 19px 20px;
   background: #f9f9f9;
-  border: 1px solid rgba(119, 119, 125, .2);
+  border: 1px solid rgba(119, 119, 125, 0.2);
   border-radius: 10px;
 }
 
@@ -1199,6 +1184,10 @@ h6 {
   position: relative;
 }
 
+.modal-content .modal-image {
+  max-height: 400px;
+  overflow: hidden;
+}
 .modal-content img {
   width: 100%;
   border-radius: 10px;
@@ -1225,7 +1214,6 @@ h6 {
   color: #333;
 }
 
-
 @media (max-width: 1024px) {
   .project-card {
     margin-bottom: 30px;
@@ -1238,7 +1226,7 @@ h6 {
 .testimonial-area {
   padding-top: 100px;
   padding-bottom: 100px;
-  background: #E6EAEE;
+  background: #e6eaee;
 }
 
 /* Testimonial Card */
@@ -1250,13 +1238,12 @@ h6 {
   text-align: left;
   transition: all 0.3s ease;
   /* flex: 1; */
-    min-height: 325px;
+  min-height: 325px;
 
   /* height: 100%; */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
 }
 
 .testimonial-item:hover {
@@ -1312,14 +1299,12 @@ h6 {
   opacity: 1;
 }
 
-
 /* Swiper Navigation Buttons Ends */
 
 .testimonial-wrapper {
   position: relative;
   padding-bottom: 80px;
   /* Space for navigation buttons */
-
 }
 
 .custom-navigation {
@@ -1334,7 +1319,6 @@ h6 {
 }
 
 .custom-navigation button {
-
   background-color: transparent;
   cursor: pointer;
   font-size: 10px;
@@ -1378,10 +1362,8 @@ h6 {
   fill: #fff;
 }
 
-
 /* Disable navigation buttons on mobile */
 @media (max-width: 768px) {
-
   .testimonial-swiper .swiper-button-prev,
   .testimonial-swiper .swiper-button-next {
     display: none;
@@ -1394,7 +1376,6 @@ h6 {
     padding: 30px 20px;
   }
 }
-
 
 /* ------------------------------------testimonial css End--------------------------------------------- */
 /* ------------------------------------Blog css Start--------------------------------------------- */
@@ -1416,7 +1397,6 @@ h6 {
   height: 100%;
 }
 
-
 /* image section */
 .blog-banner img {
   width: 100%;
@@ -1430,7 +1410,7 @@ h6 {
   padding: 25px 30px 30px;
   flex: 1;
   flex-direction: column;
-  background-color: #E6EAEE;
+  background-color: #e6eaee;
 }
 
 .blog-content .date {
@@ -1459,7 +1439,6 @@ h6 {
   border-bottom: 1px solid #ddd;
   padding-bottom: 20px;
 }
-
 
 @media (max-width: 768px) {
   .blog-space {

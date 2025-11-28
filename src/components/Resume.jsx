@@ -1,14 +1,14 @@
-import React from 'react'
+import React from "react";
 import { motion } from "framer-motion";
 export default function Resume() {
   return (
     <>
-      <section id="resume" className="resume-area" >
+      <section id="resume" className="resume-area">
         <div className="container">
           <div className="row">
             <div className="col-xl-12 col-lg-12">
               <motion.div
-                className='section-title text-center '
+                className="section-title text-center "
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, ease: "easeOut" }}
@@ -27,95 +27,146 @@ export default function Resume() {
             viewport={{ once: true }} // animate only once when visible
           >
             <div className="col-xl-6 col-md-6">
-              <div className='experience-list'>
-                <div className='resume-item'>
+              <div className="experience-list">
+                <div className="resume-item">
                   <div className="icon">
                     <i>
-                      <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" className="remixicon ">
+                      <svg
+                        viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        fill="currentColor"
+                        className="remixicon "
+                      >
                         <path d="M3 18.5V5C3 3.34315 4.34315 2 6 2H20C20.5523 2 21 2.44772 21 3V21C21 21.5523 20.5523 22 20 22H6.5C4.567 22 3 20.433 3 18.5ZM19 20V17H6.5C5.67157 17 5 17.6716 5 18.5C5 19.3284 5.67157 20 6.5 20H19ZM5 15.3368C5.45463 15.1208 5.9632 15 6.5 15H19V4H6C5.44772 4 5 4.44772 5 5V15.3368Z"></path>
                       </svg>
                     </i>
                   </div>
                   <div className="content">
-                    <span className='years'>7+ Years</span>
+                    <span className="years">7+ Years</span>
                     <h4>Founder & Lead Developer</h4>
-                    <span className='company'>ICONFISYS PVT. LTD</span>
+                    <span className="company">ICONFISYS PVT. LTD</span>
                   </div>
                 </div>
 
-                <div className='resume-item'>
+                <div className="resume-item">
                   <div className="icon">
                     <i>
-                      <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" className="remixicon ">
+                      <svg
+                        viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        fill="currentColor"
+                        className="remixicon "
+                      >
                         <path d="M3 18.5V5C3 3.34315 4.34315 2 6 2H20C20.5523 2 21 2.44772 21 3V21C21 21.5523 20.5523 22 20 22H6.5C4.567 22 3 20.433 3 18.5ZM19 20V17H6.5C5.67157 17 5 17.6716 5 18.5C5 19.3284 5.67157 20 6.5 20H19ZM5 15.3368C5.45463 15.1208 5.9632 15 6.5 15H19V4H6C5.44772 4 5 4.44772 5 5V15.3368Z"></path>
                       </svg>
                     </i>
                   </div>
                   <div className="content">
-                    <span className='years'>7+ Years</span>
+                    <span className="years">7+ Years</span>
                     <h4>Mobile App Developer</h4>
-                    <span className='company'>Flutter • Android (Kotlin/Java)</span>
+                    <span className="company">
+                      Flutter • Android (Kotlin/Java)
+                    </span>
                   </div>
                 </div>
-                <div className='resume-item'>
+                <div className="resume-item">
                   <div className="icon">
                     <i>
-                      <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" className="remixicon ">
+                      <svg
+                        viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        fill="currentColor"
+                        className="remixicon "
+                      >
                         <path d="M3 18.5V5C3 3.34315 4.34315 2 6 2H20C20.5523 2 21 2.44772 21 3V21C21 21.5523 20.5523 22 20 22H6.5C4.567 22 3 20.433 3 18.5ZM19 20V17H6.5C5.67157 17 5 17.6716 5 18.5C5 19.3284 5.67157 20 6.5 20H19ZM5 15.3368C5.45463 15.1208 5.9632 15 6.5 15H19V4H6C5.44772 4 5 4.44772 5 5V15.3368Z"></path>
                       </svg>
                     </i>
                   </div>
                   <div className="content">
-                    <span className='years'>5+ Years</span>
+                    <span className="years">5+ Years</span>
                     <h4>Web Developer</h4>
-                    <span className='company'>React.js Frontend Development</span>
+                    <span className="company">
+                      React.js Frontend Development
+                    </span>
                   </div>
                 </div>
               </div>
             </div>
             <div className="col-xl-6 col-md-6">
-              <div className='experience-list'>
-
-                <div className='resume-item'>
+              <div className="experience-list">
+                <div className="resume-item">
                   <div className="icon">
                     <i>
-                      <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" className="remixicon ">
+                      <svg
+                        viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        fill="currentColor"
+                        className="remixicon "
+                      >
                         <path d="M3 18.5V5C3 3.34315 4.34315 2 6 2H20C20.5523 2 21 2.44772 21 3V21C21 21.5523 20.5523 22 20 22H6.5C4.567 22 3 20.433 3 18.5ZM19 20V17H6.5C5.67157 17 5 17.6716 5 18.5C5 19.3284 5.67157 20 6.5 20H19ZM5 15.3368C5.45463 15.1208 5.9632 15 6.5 15H19V4H6C5.44772 4 5 4.44772 5 5V15.3368Z"></path>
                       </svg>
                     </i>
                   </div>
                   <div className="content">
-                    <span className='years'>6+ Years</span>
+                    <span className="years">6+ Years</span>
                     <h4>Backend Developer</h4>
-                    <span className='company'>Laravel • Python • API Development</span>
+                    <span className="company">
+                      Laravel • Python • API Development
+                    </span>
                   </div>
                 </div>
-                <div className='resume-item'>
+                <div className="resume-item">
                   <div className="icon">
                     <i>
-                      <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" className="remixicon ">
+                      <svg
+                        viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        fill="currentColor"
+                        className="remixicon "
+                      >
                         <path d="M3 18.5V5C3 3.34315 4.34315 2 6 2H20C20.5523 2 21 2.44772 21 3V21C21 21.5523 20.5523 22 20 22H6.5C4.567 22 3 20.433 3 18.5ZM19 20V17H6.5C5.67157 17 5 17.6716 5 18.5C5 19.3284 5.67157 20 6.5 20H19ZM5 15.3368C5.45463 15.1208 5.9632 15 6.5 15H19V4H6C5.44772 4 5 4.44772 5 5V15.3368Z"></path>
                       </svg>
                     </i>
                   </div>
                   <div className="content">
-                    <span className='years'>5+ Years</span>
+                    <span className="years">5+ Years</span>
                     <h4>Software Project Manager</h4>
-                    <span className='company'>Team Leadership • Project Delivery</span>
+                    <span className="company">
+                      Team Leadership • Project Delivery
+                    </span>
                   </div>
                 </div>
-                <div className='resume-item'>
+                <div className="resume-item">
                   <div className="icon">
                     <i>
-                      <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" className="remixicon ">
+                      <svg
+                        viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        fill="currentColor"
+                        className="remixicon "
+                      >
                         <path d="M3 18.5V5C3 3.34315 4.34315 2 6 2H20C20.5523 2 21 2.44772 21 3V21C21 21.5523 20.5523 22 20 22H6.5C4.567 22 3 20.433 3 18.5ZM19 20V17H6.5C5.67157 17 5 17.6716 5 18.5C5 19.3284 5.67157 20 6.5 20H19ZM5 15.3368C5.45463 15.1208 5.9632 15 6.5 15H19V4H6C5.44772 4 5 4.44772 5 5V15.3368Z"></path>
                       </svg>
                     </i>
                   </div>
                   <div className="content">
-                    <span className='years'>7+ Years</span>
+                    <span className="years">7+ Years</span>
                     <h4>Full Stack Developer</h4>
-                    <span className='company'>Mobile • Web • Backend Development</span>
+                    <span className="company">
+                      Mobile • Web • Backend Development
+                    </span>
                   </div>
                 </div>
               </div>
@@ -124,6 +175,5 @@ export default function Resume() {
         </div>
       </section>
     </>
-  )
+  );
 }
-

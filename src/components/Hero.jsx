@@ -1,45 +1,49 @@
-import React, { useEffect, useState } from 'react';
-import { motion } from 'framer-motion';
+import React, { useEffect, useState } from "react";
+import { motion } from "framer-motion";
 export default function Hero() {
-    const [screenSize, setScreenSize] = useState(
-        typeof window !== 'undefined' ? window.innerWidth : 0
-    );
+  const [screenSize, setScreenSize] = useState(
+    typeof window !== "undefined" ? window.innerWidth : 0
+  );
 
-    useEffect(() => {
-        const onResize = () => setScreenSize(window.innerWidth);
-        window.addEventListener('resize', onResize);
-        // ensure correct initial value (in case of hydration)
-        onResize();
-        return () => window.removeEventListener('resize', onResize);
-    }, []);
+  useEffect(() => {
+    const onResize = () => setScreenSize(window.innerWidth);
+    window.addEventListener("resize", onResize);
+    // ensure correct initial value (in case of hydration)
+    onResize();
+    return () => window.removeEventListener("resize", onResize);
+  }, []);
 
-    return (
-        <section id="home" className="main-hero-area">
-            <div className="container">
-                <div className="container-inner">
-                    <div className="row align-items-center">
-                        <div className="col-lg-12 col-sm-12">
-                            <motion.div className="hero-content"
-                                initial={{ opacity: 0, y: 50 }}
-                                whileInView={{ opacity: 1, y: 0 }}
-                                transition={{ duration: 0.8, ease: "easeOut" }}
-                                viewport={{ once: true }} // animate only once when visible
-                            >
-                                {/* <h1>I'm<span>GOPAL</span>{screenSize < 480 ? <br /> : ""}VAGHELA</h1>
+  return (
+    <section id="home" className="main-hero-area">
+      <div className="container">
+        <div className="container-inner">
+          <div className="row align-items-center">
+            <div className="col-lg-12 col-sm-12">
+              <motion.div
+                className="hero-content"
+                initial={{ opacity: 0, y: 50 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8, ease: "easeOut" }}
+                viewport={{ once: true }} // animate only once when visible
+              >
+                {/* <h1>I'm<span>GOPAL</span>{screenSize < 480 ? <br /> : ""}VAGHELA</h1>
                                 <div className='job'>
                                     <span>Full stack developer</span>
                                     <span>React Developer</span>
                                 </div> */}
-                                <h1>I'm <span>JIGAR</span>{screenSize < 480 ? <br /> : ""} PARSANA</h1>
-                                {/* <h1>I'm <span>JIGAR</span>{screenSize < 480 ? <br /> : ""} P.</h1> */}
-                                <div className='job'>
-                                    <span>Full Services software development</span>
-                                </div>
-                            </motion.div>
-                        </div>
-                    </div>
+                <h1>
+                  I'm <span>JIGAR</span>
+                  {screenSize < 480 ? <br /> : ""} PARSANA
+                </h1>
+                {/* <h1>I'm <span>JIGAR</span>{screenSize < 480 ? <br /> : ""} P.</h1> */}
+                <div className="job">
+                  <span>Full Services software development</span>
                 </div>
+              </motion.div>
             </div>
-        </section>
-    )
+          </div>
+        </div>
+      </div>
+    </section>
+  );
 }
