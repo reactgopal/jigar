@@ -27,7 +27,7 @@ export default function About() {
               <div className="about-btn">
                 <h6>Available for Work</h6> <span className="status-dot"></span>
               </div>
-              <div className="about-social">
+              {/* <div className="about-social">
                 <ul>
                   <li>
                     <a href="#">
@@ -50,7 +50,7 @@ export default function About() {
                     </a>
                   </li>
                 </ul>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="col-lg-7">

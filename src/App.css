@@ -821,6 +821,11 @@ h6 {
   text-align: center;
 }
 
+/* Make bootstrap columns equal height */
+.services-area .row > div {
+  display: flex;
+}
+
 .service-item {
   opacity: 0;
   transform: translateY(40px);
@@ -831,6 +836,10 @@ h6 {
   padding: 60px 40px;
   border-radius: 10px;
   border: 1px solid var(--border-color-medium);
+
+  height: 100%; /* ⭐ Equal height */
+  display: flex;
+  flex-direction: column;
 }
 
 .service-item:nth-child(1) {
@@ -852,12 +861,9 @@ h6 {
   }
 }
 
+/* Hover effect */
 .service-item:hover {
   border: 1px solid var(--text-color-dark-grey);
-
-  /* background: var(--bg-color-white);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-  transform: translateY(-5px); */
 }
 
 .service-item h4 {
@@ -870,12 +876,14 @@ h6 {
 .service-item p {
   margin-bottom: 0px;
   color: var(--text-sub-color);
+  flex-grow: 1; /* ⭐ makes text area stretch equally */
 }
 
 /* responsive css */
 @media (max-width: 768px) {
   .service-item {
     margin-bottom: 30px;
+    height: auto; /* resets for mobile */
   }
 }
 

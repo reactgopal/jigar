@@ -7,7 +7,7 @@ export default function Services() {
       opacity: 1,
       y: 0,
       transition: {
-        delay: i * 0.3, // staggered delay
+        delay: i * 0.3,
         duration: 0.8,
         ease: "easeOut",
       },
@@ -17,20 +17,16 @@ export default function Services() {
   return (
     <section id="services" className="services-area">
       <div className="container">
-        <div className="row">
-          <div className="col-xl-12 col-lg-12">
-            <motion.div
-              className="section-title text-center"
-              initial={{ opacity: 0, y: 50 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, ease: "easeOut" }}
-              viewport={{ once: true }} // animate only once when visible
-            >
-              <p>SERVICES</p>
-              <h2>Quality Services</h2>
-            </motion.div>
-          </div>
-        </div>
+        <motion.div
+          className="section-title text-center"
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
+          viewport={{ once: true }}
+        >
+          <p>SERVICES</p>
+          <h2>Quality Services</h2>
+        </motion.div>
 
         <div className="row">
           {[
@@ -47,7 +43,7 @@ export default function Services() {
                 </svg>
               ),
               content:
-                "We build powerful, smooth, and scalable mobile apps using Flutter, Kotlin, and Android.Our team delivers modern UI, fast performance, and reliable solutions tailored to your business needs.",
+                "We build powerful, smooth, and scalable mobile apps using Flutter, Kotlin, and Android. Our team delivers modern UI, fast performance, and reliable solutions tailored to your business needs.",
             },
             {
               title: "Website & Web App Development",
@@ -62,7 +58,7 @@ export default function Services() {
                 </svg>
               ),
               content:
-                "From React.js frontends to Laravel-powered backends, we create responsive, secure, and high-quality websites and web applications designed for performance and user engagement.",
+                "From React.js frontends to Laravel-powered backends, we create responsive, secure, and high-quality websites and web apps designed for performance and user engagement.",
             },
             {
               title: "Custom Software Solutions",
@@ -77,7 +73,7 @@ export default function Services() {
                 </svg>
               ),
               content:
-                "We provide end-to-end software development using Python, Laravel, and modern technologies. Our solutions are built to automate processes, improve efficiency, and support long-term growth..",
+                "We provide end-to-end software development using Python, Laravel, and modern technologies. Our solutions automate processes, improve efficiency, and support long-term growth.",
             },
           ].map((service, i) => (
             <div key={i} className="col-lg-4 col-md-6">
